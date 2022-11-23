@@ -1,14 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/styles/globalStyles.css">
-    <link rel="stylesheet" href="./src/styles/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
     <title>Login</title>
-</head>
-<body>
+  </head>
+  <body>
+    <main class="containeint">
+      <div class="descricaoformcont">
+        <img
+          class="logokenzie"
+          src="https://www.lomadee.com/programas/BR/8450/logo_185x140.png"
+          alt="logo kenzie"
+        />
+        <p class="descricaoform">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s.
+        </p>
+      </div>
+      <div class="containerlogin">
+        <div class="containerlogin2">
+          <h1 class="titulologin">Login</h1>
+          <label class="descricaoinput" for="email">Email:</label><br />
+          <input
+            class="inputemailsenha"
+            type="email"
+            name="email"
+            id="email"
+            required="true"
+          /><br />
+          <label class="descricaoinput" for="senhalogin">Senha:</label><br />
+          <input
+            class="inputemailsenha"
+            type="password"
+            id="senhalogin"
+            name="senha"
+            required="true"
+          /><br />
+
+          <button
+            class="botaoesqueceu"
+            data-modal-control="senha"
+            type="submit"
+          >
+            Esqueceu a senha ?</button
+          ><br />
+          <button class="botaologar" type="submit">Logar</button>
+          <div class="modalint"id="senha">
+          <div class="modal-wraper" >
+            <div class="modal">
+              <span class="recuperasenha">Recuperação de Senha</span>
+              <span class="modalclose"data-modal-control="senha">X</span><br />
+              <p class="descricaorecuperasenha">
+                Para recuperar sua senha basta digita-lo seu email no campo
+                abaixo
+              </p>
+
+              <label class="labelemail" for="email">Digite seu Email:</label
+              ><br />
+              <input
+                class="emailmodal"
+                type="email"
+                name="email"
+                id="email"
+                required="true"
+              /><br />
+              <button class="botaosenha"type="submit">Enviar</button>
+            
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </main>
     <script src="./src/scripts/modal.js"></script>
-</body>
+  </body>
 </html>

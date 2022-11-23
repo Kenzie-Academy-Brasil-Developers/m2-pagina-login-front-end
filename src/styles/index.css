@@ -1,1 +1,161 @@
-/* Desenvolva seu código aqui... */
+body {
+  background-color:var(--color-grey-2);
+}
+.descricaoformcont {
+  width: 350px;
+  height: 450px;
+  top: 156px;
+  left: 283px;
+  position: relative;
+  display: flex;
+  background: var(--color-primary);
+  border-radius: 8px 0px 0px 8px;
+}
+.logokenzie {
+  position: relative;
+  width: 148px;
+  height: 95px;
+  top: 78px;
+  left: 95px;
+}
+.descricaoform {
+  position: relative;
+  width:100%;
+  height: 16px;
+  right: 60px;
+  top: 210px;
+  color: var(--color-grey-2);
+  border-radius: 4px;
+  font-weight: bold;
+  line-height: 25px;
+}
+.containerlogin {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: 630px;
+  top: 156px;
+  background: #4263eb;
+  border-radius: 8px;
+}
+.containerlogin2 {
+  margin-top: 100px;
+  margin-left: 110px;
+}
+.titulologin {
+  margin-bottom: 10px;
+}
+
+.descricaoinput {
+  color: white;
+  font-size: 14px;
+}
+.inputemailsenha {
+  position: relative;
+  width: 240px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 12px;
+}
+.botaoesqueceu {
+  border: none;
+  background: #4263eb;
+  color: white;
+  font-size: 12px;
+  text-align: end;
+  margin-bottom: 18px;
+  cursor: pointer;
+  margin-left: 120px;
+}
+.botaologar {
+  background-color: blue;
+  padding: 8px;
+  border: none;
+  border-radius: 12px;
+  width: 240px;
+  height: 44px;
+  color: white;
+  cursor: pointer;
+  
+}
+.modal-wraper{
+align-items: flex-start;
+padding: 28px 22px;
+gap: 36px;
+    display: flex;
+    position: absolute;
+    width: 346px;
+    height: 312px;
+    bottom:120px;
+    right:520px;
+    border-radius: 15px;
+    background-color:var(--color-grey-2);
+    border: 2px solid black;
+
+ 
+}
+
+.show-modal{
+    display: flex !important;
+}
+.recuperasenha{
+    font-weight:bold;
+    margin-left:14px;
+    margin-top:6px;
+    margin-right:100px;
+    gap:30px;
+    display: inline-block;
+    margin-bottom:40px;
+    color: white;
+
+}
+.modalclose{
+    padding:4px 6px;
+    border-radius:8px;
+    background-color: aliceblue;
+    color:black;
+    cursor: pointer;
+}
+.descricaorecuperasenha{
+font-size:14px;
+margin-left: 14px;
+margin-bottom: 40px;
+color: white;
+}
+.labelemail{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size:23px;
+    color: white;
+}
+.emailmodal{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left:55px;
+    padding: 8px;
+    border-radius:12px;
+    color: white;
+}
+.botaosenha{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    width:100% ;
+    background-color: blue;
+    color: white;
+}
+.modalint{
+  display: none;
+  left: 0;
+  top:0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.850);
+}
