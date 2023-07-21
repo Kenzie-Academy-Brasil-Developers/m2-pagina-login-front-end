@@ -13,3 +13,5 @@
     --color-grey-5: #CED4DA;
     --color-grey-6: #EDF2FF;
 }
+/*criei varias variaveis com cores para não precisar mudar manualmente uma por uma caso meu codigo seja muito
+grande, se mudar uma cor aqui de uma variavel, vai mudar no codigo todo que estão com essa variavel*/
